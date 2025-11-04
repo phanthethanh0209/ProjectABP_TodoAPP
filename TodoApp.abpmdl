@@ -1,0 +1,49 @@
+{
+  "template": "app-nolayers",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.3.6",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/04/2025 15:28:11 +00:00"
+    }
+  },
+  "packages": {
+    "TodoApp": {
+      "path": "TodoApp/TodoApp.abppkg"
+    }
+  }
+}

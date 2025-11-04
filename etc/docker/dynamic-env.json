@@ -1,0 +1,21 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://localhost:4200",
+    "name": "TodoApp",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://localhost:44317",
+    "redirectUri": "https://localhost:44317",
+    "clientId": "TodoApp_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone TodoApp"
+  },
+  "apis": {
+    "default": {
+      "url": "https://localhost:44317",
+      "rootNamespace": "TodoApp"
+    }
+  }
+}

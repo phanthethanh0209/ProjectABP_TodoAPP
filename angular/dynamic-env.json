@@ -1,0 +1,21 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"https://todoapp-web",
+    "name": "TodoApp",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://todoapp-api/",
+    "redirectUri": "https://todoapp",
+    "clientId": "TodoApp_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone"
+  },
+  "apis": {
+    "default": {
+      "url": "https://todoapp-api",
+      "rootNamespace": "TodoApp"
+    }
+  }
+}
